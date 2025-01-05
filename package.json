@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "tsc && nodemon ./dist/index.js"
+    "start": "tsc && node ./dist/index.js"
   },
   "author": "",
   "license": "ISC",
