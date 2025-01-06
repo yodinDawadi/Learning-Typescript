@@ -34,20 +34,37 @@ import { Interface } from "readline"
 
 //Defining a type
 
-type User ={
+// type User ={
+//     name:string,
+//     age:number,
+//     address:string,
+//     id:number,
+//     isActive:boolean
+// };
+
+// const user1:User ={
+//     name:"yodin dawadi",
+//     age: 19,
+//     address:"Damak-5,Jhapa",
+//     id:14,
+//     isActive:true
+// }
+
+// console.log(user1.id,user1.name)
+
+interface Item {
     name:string,
-    age:number,
-    address:string,
-    id:number,
-    isActive:boolean
+    price:number,
+    description?:string,
+    stock:number
 };
 
-const user1:User ={
-    name:"yodin dawadi",
-    age: 19,
-    address:"Damak-5,Jhapa",
-    id:14,
-    isActive:true
+const item1:Item={
+    name:"victus",
+    price:100000,
+    description:"This is a gaming laptop",
+    stock:2
+
 }
 
-console.log(user1.id,user1.name)
+console.log(item1.name,item1.price);
